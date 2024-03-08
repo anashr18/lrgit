@@ -2,7 +2,8 @@ from setuptools import setup, find_packages
 
 setup(
     name="yg-transformers",
-    packages=find_packages(exclude=["examples"]),
+    # packages=find_packages(exclude=["examples"]),
+    packages=find_packages(exclude=["examples*", "myexp*"]),
     version="0.0.1",
     license="MIT",
     description="yg-Transformers - Pytorch",
